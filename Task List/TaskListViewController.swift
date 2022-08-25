@@ -28,7 +28,12 @@ class TaskListViewController: UITableViewController {
         2
     }
     
-    override func numberOfSections(in tableView: UITableView) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         2
     }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        section == 0 ? "Current Tasks" : "Complete Tasks"
+    }
+    
 }
