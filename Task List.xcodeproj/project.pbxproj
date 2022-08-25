@@ -16,6 +16,7 @@
 		9440111728B6C47100968533 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 9440111628B6C47100968533 /* Realm */; };
 		9440111928B6C47100968533 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9440111828B6C47100968533 /* RealmSwift */; };
 		9440111B28B80B7F00968533 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9440111A28B80B7F00968533 /* TaskList.swift */; };
+		9440111E28B80D1200968533 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9440111D28B80D1200968533 /* TaskListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9440110D28B6C03C00968533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9440110F28B6C03C00968533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9440111A28B80B7F00968533 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		9440111D28B80D1200968533 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				9440110528B6C03B00968533 /* ViewController.swift */,
 				9440110A28B6C03C00968533 /* Assets.xcassets */,
 				9440110728B6C03B00968533 /* Main.storyboard */,
+				9440111D28B80D1200968533 /* TaskListViewController.swift */,
 				9440111C28B80C2F00968533 /* Models */,
 				9440110C28B6C03C00968533 /* LaunchScreen.storyboard */,
 				9440110F28B6C03C00968533 /* Info.plist */,
@@ -164,6 +167,7 @@
 				9440110628B6C03B00968533 /* ViewController.swift in Sources */,
 				9440110228B6C03B00968533 /* AppDelegate.swift in Sources */,
 				9440110428B6C03B00968533 /* SceneDelegate.swift in Sources */,
+				9440111E28B80D1200968533 /* TaskListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
