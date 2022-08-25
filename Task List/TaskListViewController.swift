@@ -14,13 +14,14 @@ class TaskListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = taskList.name
+        view.backgroundColor = .white
         
         let addButton = UIBarButtonItem(
             barButtonSystemItem: .add,
             target: self,
             action: #selector(addButtonPressed)
         )
-        navigationItem.rightBarButtonItem = [addButton, editButtonItem]
+        //navigationItem.rightBarButtonItem = [addButton, editButtonItem]
     }
     
     //MARK: Table view data source
@@ -36,4 +37,7 @@ class TaskListViewController: UITableViewController {
         section == 0 ? "Current Tasks" : "Complete Tasks"
     }
     
+    @objc private func addButtonPressed() {
+        print(1)
+    }
 }
