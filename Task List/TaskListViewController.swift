@@ -22,4 +22,13 @@ class TaskListViewController: UITableViewController {
         )
         navigationItem.rightBarButtonItem = [addButton, editButtonItem]
     }
+    
+    //MARK: Table view data source
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        2
+    }
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        2
+    }
 }
