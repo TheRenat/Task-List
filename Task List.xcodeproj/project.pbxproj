@@ -15,6 +15,7 @@
 		9440110E28B6C03C00968533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9440110C28B6C03C00968533 /* LaunchScreen.storyboard */; };
 		9440111728B6C47100968533 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 9440111628B6C47100968533 /* Realm */; };
 		9440111928B6C47100968533 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9440111828B6C47100968533 /* RealmSwift */; };
+		9440111B28B80B7F00968533 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9440111A28B80B7F00968533 /* TaskList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9440110A28B6C03C00968533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9440110D28B6C03C00968533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9440110F28B6C03C00968533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9440111A28B80B7F00968533 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +67,19 @@
 				9440110528B6C03B00968533 /* ViewController.swift */,
 				9440110A28B6C03C00968533 /* Assets.xcassets */,
 				9440110728B6C03B00968533 /* Main.storyboard */,
+				9440111C28B80C2F00968533 /* Models */,
 				9440110C28B6C03C00968533 /* LaunchScreen.storyboard */,
 				9440110F28B6C03C00968533 /* Info.plist */,
 			);
 			path = "Task List";
+			sourceTree = "<group>";
+		};
+		9440111C28B80C2F00968533 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9440111A28B80B7F00968533 /* TaskList.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9440111B28B80B7F00968533 /* TaskList.swift in Sources */,
 				9440110628B6C03B00968533 /* ViewController.swift in Sources */,
 				9440110228B6C03B00968533 /* AppDelegate.swift in Sources */,
 				9440110428B6C03B00968533 /* SceneDelegate.swift in Sources */,
